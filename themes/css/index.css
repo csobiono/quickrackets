@@ -1,0 +1,58 @@
+#home-content{display: inline-block; position: absolute; min-height: 5px; padding: 10px 0 0 0;}
+#sign-up{display: inline-block; margin-left: 690px; width: 415px;}
+.reg-label{text-align:right;}
+
+.quickies{
+	min-height: 132px;
+	width: 660px;
+	border: 1px solid #7ac10e;
+	border-top-right-radius: 7px;
+	border-bottom-right-radius: 7px;
+	border-bottom-left-radius: 7px;
+}
+
+.pamphlet_top{
+	width: 242px; 
+	height: 11px; 
+	font-size: 18px; 
+	font-weight: normal;
+	color:white;
+	padding: 4px 0 0 12px;
+	background-color: #7ac10e; 
+	border-top-right-radius: 22px; 
+	border-top-left-radius: 10px; 
+	border-top: 2px white outset;
+}
+
+.pamphlet_bottom{
+	width: 252px; 
+	height: 15px; 
+	background-color: #7ac10e; 
+	border-bottom-right-radius: 25px;
+}
+
+#paypal{background-image: url('/themes/images/nav-icons/creditcardicons/paypal/pp_horizontal.gif'); min-width: 260px;}
+#payza{background-image: url('/themes/images/nav-icons/creditcardicons/payza/payza-seal-no-amex-discov-en.png'); min-width: 110px;}
+#skrill{background-image: url('/themes/images/nav-icons/creditcardicons/skrill/plain-four-versions-rgb_224x60.gif'); min-width: 234px;}
+
+input[name='username'], input[name='firstname'], input[name='lastname'], input[name='email'],
+input[name='reg_password'], input[name='confirm_password'], select[name='gender'], select[name='country'],
+select[name='month'], select[name='day'], select[name='year']{
+	width:252px;
+	height: 27px;
+	background: #ffffff;
+	padding: 5px 5px 5px 5px;
+	font-size: 16px;
+}
+select[name='gender'], select[name='country']{
+	width: 263px;
+	height: 31px;
+}
+select.b-day{
+	width: 86px;
+	height: 31px;
+}
+select[name='day']{
+	width: 83px;
+}
+label{color:#27600d;}

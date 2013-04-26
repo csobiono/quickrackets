@@ -1,0 +1,29 @@
+html, body{
+	padding:0; 
+	margin:0
+	font-size: 20px;
+}
+h6{font-size: 25px;}
+th, td.header {font-size:25px}
+td {font-size:20px}
+
+.pie_legend a {
+    font-size: 25px;
+    line-height: 38px;
+}
+.pie_legend{
+	left: 265px;	
+}
+.pie_gloss{
+	background: url("../images/pie_gloss_hdtv.png") no-repeat scroll -7px 14px transparent;
+	height: 300px;
+}
+
+
+#frame_wrapper{
+	width:1900px;
+	height:100%;
+	border:0;
+	outline:none;	
+	padding:10px; 
+}

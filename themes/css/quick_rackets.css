@@ -1,0 +1,14 @@
+#racket-category{padding-left: 0; background-image: url('/themes/images/nav-icons/head-nav/category.png'); background-size: 28px 28px; width: 28px; height: 28px; position:absolute;}
+#racket-title{padding-left: 5%;}
+#racket-worth{padding-left: 28%;}
+#racket-inventory{padding-left: 4%;}
+#racket-duration{padding-left: 4%;}
+#racket-date{padding-left: 3%;}
+#racket-author{padding-left: 10%; background-image: url('/themes/images/nav-icons/head-nav/author.png'); background-size: 22px 22px; width: 22px; height: 22px; position:absolute;}
+
+div.entry div.status{width: 56px;}
+div.entry div.name{width: 284px;}
+div.entry div.money{width: 82px;}
+div.entry div.progress{width: 100px;}
+div.entry div.duration{width: 126px;}
+div.entry div.date_posted{width: 154px;}

@@ -1,0 +1,17 @@
+they will pay $10
+i will receive $9.32
+the payor will keep all $10
+he will hire 30 people for $0.25 each
+i will get 2.25% for each people
+he will pay a total of $8.3625
+his balance is $1.6375
+i will get $0.02875 per hired person
+i will get $0.8625 for 30 person hired
+
+
+the referrer will receive 1.15%
+the referrer will then get $0.001875
+i will be left with $0.026875 per hired person
+i will be left with $0.80625 for 30 person hired
+
+http://www.smarty.net/docsv2/en/language.function.html.options

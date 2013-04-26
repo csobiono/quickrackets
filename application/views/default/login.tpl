@@ -1,0 +1,1 @@
+{include file="auth/login_form.tpl"}

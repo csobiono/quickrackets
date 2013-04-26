@@ -1,0 +1,211 @@
+body{
+	/*background-image: url('/themes/images/overallbg.png');
+	background-repeat:repeat;
+	background-color: #ACD1E9;*/
+	margin:0 auto;
+	background-color: #003366;
+}
+
+a, td, tr, th, div, span{
+	font-family: Century Gothic;
+}
+
+@font-face {
+	font-family: thunky;
+	src: url('/captcha/fonts/thunky.ttf') format('truetype');
+}
+
+#head_panel{
+	top: 0;
+	left: 0;
+	height: 38px;
+	padding-top: 10px;
+	padding-left: 10px;
+	background-image: url('/themes/images/header.png');
+	background-repeat:repeat;
+	border-bottom: 1px ridge black;
+	position:relative;
+}
+
+#main_content{
+	
+}
+
+.giglux_logo{
+	background-image: url('/themes/images/logo/giglux.png');
+	background-repeat:no-repeat;
+}
+
+.giglux_logo_text{
+	width: 197px;
+	height: 92px;
+	font-family:tahoma; 
+	font-size: 32px; 
+	font-weight: bold;
+	text-align: right;
+	color: #FFFCCC;
+}
+
+#pagename{
+	top: 5px;
+	left: 22px;
+	padding: 0 0 0 0;
+	position: absolute;
+	background-position:left top;
+	cursor: pointer;
+}
+
+#pagename, #login, #sign_up:hover, active, visited{
+	text-decoration:none;
+}
+
+#login, #sign_up{
+	width: 129px;
+	height: 20px;
+	top: 25px;
+	right: 10px;
+	text-align: right;
+	font-size: 13px;
+	font-weight: bold;
+	color: #FFFCCC;
+	padding: 0 0 0 0;
+	position: absolute;
+	background-image: url('/themes/images/nav-icons/small/sign-up.png');
+	background-position:left top;
+	background-repeat:no-repeat;
+	cursor: pointer;
+}
+
+#login{
+	width: 58px;
+	right: 150px;
+	background-image: url('/themes/images/nav-icons/small/sign-in.png');
+}
+
+/* ------------- user home ----------------*/
+#user_main_container{
+	height: 600px;
+	width: 92%;
+	margin: 0 3% 20px 4%;
+	background-color:white;
+	border-bottom-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+}
+
+#user{
+	height: auto;
+	text-align: right;
+	padding: 10px 20px 10px 0;
+	right: 0;
+}
+#menu-list{
+	width:auto;
+	text-align:right;
+	border-bottom: 3px #C13100 ridge;
+	padding: 23px 10px 0 0
+}
+
+.menu{
+	background-color: #FFFCCC;
+	font-size: 15px;
+	font-family: verdana;
+	border-top: 1px #C13100 solid;
+	border-left: 1px #C13100 solid;
+	border-right: 1px #C13100 solid;
+	padding: 5px 60px 0 60px;
+}
+
+.menu:hover{
+	font-size: 18px;
+	text-decoration:none;
+}
+
+.current{
+	background-color: #C13100;
+	color:white;
+}
+
+.current:hover{
+	font-size: 15px;
+}
+
+#right-menu{
+	width:auto;
+	height:auto;
+	padding: 20px 0 0 50px;
+}
+
+.right-menu:hover{
+	text-decoration: none;
+}
+/* --------------- end --------------------*/
+
+.grid{
+	display: inline-block;
+}
+
+.first{
+	margin-left: 180px;
+	margin-top: 40px;
+}
+
+.last{
+	position:absolute;
+	margin-left: 50px;
+}
+
+/*------- To create Pamphlets ----------------------------------
+		- create div.pamphlet_top
+		- create div.pamphlet
+		- inside div.pamphlet, create div.pamphlet_bottom
+		- inside div.pamphlet and below div.pamphlet_bottom, create div.pamphlet_text
+---------------------------------------------------------------*/
+.pamphlet_top{
+	width: 200px; 
+	height: 25px; 
+	font-size: 28px; 
+	color:#003366;
+	padding-top: 5px;
+	background-color: #C13100; 
+	border-top-right-radius: 25px; 
+	border-top-left-radius: 10px; 
+	border-top: 2px white outset;
+	border-left: 2px white outset;
+}
+
+.pamphlet_bottom{
+	width: 200px; 
+	height: 20px; 
+	background-color: #C13100; 
+	border-bottom-right-radius: 25px;
+}
+
+.pamphlet{
+	width: 420px;
+	height: auto;
+	font-size: 20px; 
+	background-color: #339798; 
+	border-top-right-radius: 10px; 
+	border-bottom-right-radius: 10px; 
+	border-bottom-left-radius: 10px; 
+	border-left: 2px white outset;
+	border-right: 2px white outset; 
+	border-bottom: 2px white outset;
+	position: static;
+}
+
+.pamphlet_text{
+	padding: 10px 10px 10px 10px; 
+	color: #FFFCCC; 
+	font-family:courier
+}
+/*------------------ end of pamphlet styles -------------------*/
+
+.shout .ask{
+	color: #003366;
+}
+
+#panels{
+	margin-left:1095px;
+	margin-top: 30px;
+}
