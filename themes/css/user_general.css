@@ -1,4 +1,10 @@
-body, .search{background-color:white; font-family:century gothic; margin-top: 0;}
+@font-face
+{
+font-family: opensans;
+src: url('/themes/fonts/OpenSans-regular-webfont.woff');
+}
+
+body, .search{background-color:white; font-family:opensans; margin-top: 0;}
 
 a, li, .search{color:#2f8400; font-size: 16px; text-decoration:none;}
 .search{color: #555555;}

@@ -1,4 +1,10 @@
-body{margin:0; font-family:century gothic; min-width: 1120px;}
+@font-face
+{
+font-family: opensans;
+src: url('/themes/fonts/OpenSans-regular-webfont.woff');
+}
+
+body{margin:0; font-family:opensans; min-width: 1120px;}
 #main-container{
 	margin-left: auto;
   	margin-right: auto;

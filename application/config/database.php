@@ -49,8 +49,8 @@ $active_group = 'default';
 $active_record = TRUE;
 
 $db['default']['hostname'] = ENVIRONMENT == 'development' ? 'localhost' : 'quickracketscom.ipagemysql.com';
-$db['default']['username'] = ENVIRONMENT == 'development' ? 'giglux' : 'giglux';
-$db['default']['password'] = ENVIRONMENT == 'development' ? 'giglux' : 'giglux';
+$db['default']['username'] = ENVIRONMENT == 'development' ? 'root' : 'giglux';
+$db['default']['password'] = ENVIRONMENT == 'development' ? '' : 'agent123';
 $db['default']['database'] = ENVIRONMENT == 'development' ? 'giglux' : 'giglux';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
